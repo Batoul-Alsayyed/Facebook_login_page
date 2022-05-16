@@ -1,5 +1,7 @@
 *{
     background-color: #ebebe8;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 .header{
     min-height: 140vh;
@@ -7,6 +9,7 @@
     position: relative;
 }
 .text-box{
+    margin-left: 7%;
     width: 90%;
     position: absolute;
     top: 50%;
@@ -14,7 +17,6 @@
     /*transform is used to let the item to be at the center of div*/
     transform: translate(-50%,-50%);
     text-align: left;
-
 }
 .text-box img{
     font-size: 56px;
@@ -29,4 +31,22 @@
     font-size: 30px;
     color: black;
     font-weight: 400;
+}
+.row{
+    margin-top: -15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.program-col{
+    text-align: left;
+    flex-basis: 50%;
+    background: white;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    padding: 10px;
+
 }
