@@ -79,3 +79,12 @@ input[type=text], select {
     background-color: white;
     padding: 20px;
   }
+  .col2 a{
+    color: #348efd;
+    margin-left: 25%;
+    text-decoration: none;
+    background-color: white;
+  }
+  .col2 a:hover {
+    text-decoration: underline;
+  }
