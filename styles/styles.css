@@ -89,7 +89,7 @@ input[type=text], select {
     border: 1px solid #0165E1;
   }
   
-  .col2 a{
+  .col2 div form > a{
     color: #348efd;
     margin-left: 30%;
     text-decoration: none;
@@ -97,7 +97,7 @@ input[type=text], select {
     font-size: 13px;
     text-align: center;
   }
-  .col2 a:hover {
+  .col2 > a:hover {
     text-decoration: underline;
   }
   .col2 div{
@@ -134,4 +134,16 @@ input[type=text], select {
 .footer h6{
   background-color: white;
   color: #8d8d8a;
+}
+.page{
+  font-size: 12px;
+  padding-left: 55px;
+}
+.page a{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+.page a:hover{
+  text-decoration: underline;
 }
