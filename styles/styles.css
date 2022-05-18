@@ -28,7 +28,7 @@
 }
 .col1 > div{
   width: 50%;
-  justify-content: right;
+  justify-content: left;
 }
 .col1 > div img{
 margin-top: 35%;  
@@ -40,6 +40,7 @@ width: 100%;
   text-align: left;
   margin-left: 24%;
   margin-top: -3%;
+  width: fit-content;
 }
 .col2{
     text-align: center;
@@ -179,4 +180,67 @@ input[type=text], select {
 .footer button:hover{
   color: #2e2d2dbe;
   border: 1px solid #807f7fbe;
+}
+@media (max-width: 768px) {
+
+  .row{
+    flex-direction: column;
+  }
+  .col1{
+    text-align: left;
+    justify-content: left;
+    margin-top: -13%;
+    align-items: left;
+    padding-right: 35%;
+
+}
+.col1 > p{
+  font-size: larger;
+  margin-top: -3%;
+  width: 120%;
+
+}
+  .col2{
+    flex-basis: 100%;
+    margin-bottom: 5%;
+    box-sizing: border-box;
+  }
+  .col1 > div{
+    justify-content: left;
+    text-align: left;
+    align-items: left;
+  }
+  .col1 > div img{
+    padding-left: 15%;
+    width: 250px;
+    }
+    .col2 button{
+      margin-left: 20%;
+    }  
+  form{
+    margin-top: -5%;  
+    padding: 3%;
+    width: 70%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12%;
+}
+
+.page{
+  font-size: 10px;
+  padding-left: 15%;
+}
+.page a{
+   align-items: center;
+   text-align: center;
+   margin-left: 30px;
+  }
+.footer{
+  font-size: 10px;
+}
+.footer button{
+  width: 25px;
+  margin-left: 2%;
+}
 }
