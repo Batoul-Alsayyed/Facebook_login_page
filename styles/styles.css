@@ -83,7 +83,9 @@ input[type=text], select {
     cursor: pointer;
     font-size: 18px;
   }
-
+  input[type=submit]:hover{
+    background-color: #054696;
+  }
   input[type=text]:focus {
     outline: none;
     border: 1px solid #0165E1;
@@ -97,9 +99,10 @@ input[type=text], select {
     font-size: 13px;
     text-align: center;
   }
-  .col2 > a:hover {
+  .col2  div form  a:hover {
     text-decoration: underline;
   }
+  
   .col2 div{
     border-bottom: 1px solid #ebebe8;
     margin-top: 5%;
@@ -120,7 +123,9 @@ input[type=text], select {
     font-weight: 500;
     margin-top: -8%;
   }
- 
+  .col2 button:hover{
+    background: #0d6911;
+  }
 
 .page{
   font-size: 12px;
