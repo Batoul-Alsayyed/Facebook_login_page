@@ -152,7 +152,7 @@ input[type=text], select {
   color: #6e6e6ebe;
   background-color: white;
   text-decoration: none;
-
+  padding-left: 2%;
 }
 .footer a:hover{
   text-decoration: underline;
@@ -169,6 +169,7 @@ input[type=text], select {
 }
 .footer > h1{
   border-bottom: 1px solid #bdbdbdbe;
+  margin-left: 2%;
 }
 .footer button{
   color: #5f5e5ebe;
